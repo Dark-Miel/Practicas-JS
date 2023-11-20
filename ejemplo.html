@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function sumar ()
+        {
+            var num1 = parseInt(prompt("Dime un número: "));
+            var num2 = parseInt(prompt("Dime otro número: "));
+            alert( num1+num2);
+
+        }
+        function resta ()
+        {
+            var num1 = parseInt(prompt("Dime un número: "));
+            var num2 = parseInt(prompt("Dime otro número: "));
+            alert( num1-num2);
+
+        }
+        function mult ()
+        {
+            var num1 = parseInt(prompt("Dime un número: "));
+            var num2 = parseInt(prompt("Multiplicado por: "));
+            alert(num1*num2);
+
+        }
+        function div ()
+        {
+            var num1 = parseInt(prompt("Dime un número: "));
+            var num2 = parseInt(prompt("Entre que número: "));
+            alert(num1/num2);
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <input type = "button" onclick="sumar ()" value="sumar"/>
+    <input type = "button" onclick="resta ()" value="restar"/>
+    <input type = "button" onclick="mult ()" value="multiplicar"/>
+    <input type = "button" onclick="div ()" value="dividir"/>
+</body>
+</html>
